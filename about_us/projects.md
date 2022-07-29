@@ -6,7 +6,7 @@ I enjoy playing on Minecraft Java, but I also enjoy making stuff on Minecraft Ja
 
 ### [Minecraft Datapacks](https://type-32.github.io/projects/minecraft-datapacks)
 
-I mainly work as the role of a **Minecraft Datapack Developer** when playing Minecraft. I have approximately 3 years of Minecraft Datapack Developing Experience and I utilize them to the fullest. I am able to make some quality Datapacks and can commission some personal ones for SMPs or public servers. You can contact me [here](https://type-32.github.io/about_us/contact-us) which will bring you to my Discord server link and also my YouTube Channel Link.
+I mainly work as the role of a **Minecraft Datapack Developer** when playing Minecraft. I have an approximate 3 years of Minecraft Datapack Developing Experience and I utilize them to the fullest. I am able to make some quality Datapacks and can commission some personal ones for SMPs or public servers. You can contact me [here](https://type-32.github.io/about_us/contact-us) which will bring you to my Discord server link and also my YouTube Channel Link.
 
 ### [Minecraft Mods](https://type-32.github.io/projects/minecraft-mods)
 
