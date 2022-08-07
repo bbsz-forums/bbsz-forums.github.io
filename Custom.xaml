@@ -163,20 +163,51 @@
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15"
             Text="最新讯息" />
-        <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                Text="刷新主页" EventType="刷新主页" ToolTip="这通常用于联网更新主页时刷新信息，对本地文件没啥用" />
+        <local:MyButton Margin="0,-50,0,0" Width="80" Height="25" HorizontalAlignment="Right" Padding="13,0,13,0"
+                Text="刷新主页" EventType="刷新主页" ToolTip="点击刷新主页" />
+			<local:MyCard Title="我的世界1.19.+ 现代枪械数据包 重制版" CanSwap="True" IsSwaped="True" Margin="0,0,0,5">
+			    <StackPanel Margin="25,40,23,20">
+				    <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                        Text="这里会显示我的数据包的一些开发者日志和开发宣告。" />
+                    <local:MyListItem Margin="-5,5,-5,0" 
+		                  Logo="https://raw.githubusercontent.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/main/favicon.ico" Title="开发日志 #1" Info="2022/07/29" Foreground="{DynamicResource ColorBrush1}" 
+		                  EventType="打开网页" EventData="https://type-32.github.io/devlogs/minecraft-datapacks/" Type="Clickable"  ToolTip="点击跳转至页面"/>
+					<local:MyListItem Margin="-5,5,-5,0" 
+		                  Logo="https://raw.githubusercontent.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/main/favicon.ico" Title="数据包生存测试 宣告" Info="2022/08/08" Foreground="{DynamicResource ColorBrush1}" 
+		                  EventType="打开网页" EventData="https://type-32.github.io/devlogs/minecraft-datapacks/" Type="Clickable"  ToolTip="点击跳转至页面"/>
+
+	            </StackPanel>
+	        </local:MyCard>
+	    <local:MyCard Title="独立开发游戏作品 “单调幽闭症”" CanSwap="True" IsSwaped="True" Margin="0,0,0,5">
+			    <StackPanel Margin="25,40,23,20">
+				    <TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,0"
+                        Text="这里会显示我的数据包的一些开发者日志和开发宣告。" />
+                    <local:MyListItem Margin="-5,5,-5,0" 
+		                  Logo="https://raw.githubusercontent.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/main/favicon.ico" Title="开发日志 #1" Info="2022/08/04" Foreground="{DynamicResource ColorBrush1}" 
+		                  EventType="打开网页" EventData="https://type-32.github.io/devlogs/indie-dev-games/" Type="Clickable"  ToolTip="点击跳转至页面"/>
+					<local:MyListItem Margin="-5,5,-5,0" 
+		                  Logo="https://raw.githubusercontent.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/main/favicon.ico" Title="开发日志 #2" Info="2022/08/06" Foreground="{DynamicResource ColorBrush1}" 
+		                  EventType="打开网页" EventData="https://type-32.github.io/devlogs/indie-dev-games/" Type="Clickable"  ToolTip="点击跳转至页面"/>
+					<local:MyListItem Margin="-5,5,-5,0" 
+		                  Logo="https://raw.githubusercontent.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/main/favicon.ico" Title="开发日志 #3" Info="2022/08/08" Foreground="{DynamicResource ColorBrush1}" 
+		                  EventType="打开网页" EventData="https://type-32.github.io/devlogs/indie-dev-games/" Type="Clickable"  ToolTip="点击跳转至页面"/>
+
+	            </StackPanel>
+	        </local:MyCard>
     </StackPanel>
 </local:MyCard>
 
 <local:MyCard Title="我的项目" CanSwap="False">
-    <StackPanel Margin="25,-50,23,15">
+    <StackPanel Margin="25,40,23,20">
 		<Image Height="25" Margin="0,-20,0,0" Source="https://github.com/favicon.ico"/>
+		<TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15" 
+				   Text="我会在这里放一些我正在开发并上传到Github上的项目，有兴趣的可以去看一看~" Foreground="{DynamicResource ColorBrush1}" />
         <local:MyListItem Margin="-5,5,-5,0" 
-		                  Logo="https://raw.githubusercontent.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/main/favicon.ico" Title="现代枪械数据包 重制版" Info="我的世界" Foreground="{DynamicResource ColorBrush1}" 
-		                  EventType="我的世界1.19.+ 数据包" EventData="https://github.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/" Type="Clickable"  ToolTip="点击打开源代码"/>
+		                  Logo="https://raw.githubusercontent.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/main/favicon.ico" Title="现代枪械数据包 重制版" Info="我的世界1.19.+ 数据包" Foreground="{DynamicResource ColorBrush1}" 
+		                  EventType="打开网页" EventData="https://github.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/" Type="Clickable"  ToolTip="点击打开源代码"/>
 	    <local:MyListItem Margin="-5,5,-5,0" 
-		                  Logo="https://raw.githubusercontent.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/main/favicon.ico" Title="现代枪械资源包 重制版" Info="我的世界" Foreground="{DynamicResource ColorBrush1}" 
-		                  EventType="我的世界1.19.+ 资源包" EventData="https://github.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/" Type="Clickable" ToolTip="点击打开源代码"/>
+		                  Logo="https://raw.githubusercontent.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/main/favicon.ico" Title="现代枪械资源包 重制版" Info="我的世界1.19.+ 资源包" Foreground="{DynamicResource ColorBrush1}" 
+		                  EventType="打开网页" EventData="https://github.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/" Type="Clickable" ToolTip="点击打开源代码"/>
     </StackPanel>
 </local:MyCard>
 
