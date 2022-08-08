@@ -184,13 +184,13 @@
                         Text="这里会显示我的数据包的一些开发者日志和开发宣告。" />
                     <local:MyListItem Margin="-5,5,-5,0" 
 		                  Logo="https://raw.githubusercontent.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/main/favicon.ico" Title="开发日志 #1" Info="2022/08/04" Foreground="{DynamicResource ColorBrush1}" 
-		                  EventType="打开网页" EventData="https://type-32.github.io/devlogs/indie-dev-games/" Type="Clickable"  ToolTip="点击跳转至页面"/>
+		                  EventType="打开网页" EventData="https://type-32.github.io/devlogs/indie-dev-games/2022-08-04-mundane-claustrophobia-devlog-1" Type="Clickable"  ToolTip="点击跳转至页面"/>
 					<local:MyListItem Margin="-5,5,-5,0" 
 		                  Logo="https://raw.githubusercontent.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/main/favicon.ico" Title="开发日志 #2" Info="2022/08/06" Foreground="{DynamicResource ColorBrush1}" 
-		                  EventType="打开网页" EventData="https://type-32.github.io/devlogs/indie-dev-games/" Type="Clickable"  ToolTip="点击跳转至页面"/>
+		                  EventType="打开网页" EventData="https://type-32.github.io/devlogs/indie-dev-games/2022-08-06-mundane-claustrophobia-devlog-2" Type="Clickable"  ToolTip="点击跳转至页面"/>
 					<local:MyListItem Margin="-5,5,-5,0" 
 		                  Logo="https://raw.githubusercontent.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/main/favicon.ico" Title="开发日志 #3" Info="2022/08/08" Foreground="{DynamicResource ColorBrush1}" 
-		                  EventType="打开网页" EventData="https://type-32.github.io/devlogs/indie-dev-games/" Type="Clickable"  ToolTip="点击跳转至页面"/>
+		                  EventType="打开网页" EventData="https://type-32.github.io/devlogs/indie-dev-games/2022-08-08-mundane-claustrophobia-devlog-3" Type="Clickable"  ToolTip="点击跳转至页面"/>
 
 	            </StackPanel>
 	        </local:MyCard>
