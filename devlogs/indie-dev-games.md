@@ -5,8 +5,8 @@
 {% for category in site.categories %}
   <h2>{{ category[0] }}</h2>
   <ul>
-    {% for indie-dev-games-devlogs in category[1] %}
-      <li><a href="{{ indie-dev-games-devlogs.url }}"><i>{{ indie-dev-games-devlogs.date }}</i> <b>{{ indie-dev-games-devlogs.title }}</b></a></li>
+    {% for indie_dev_games_devlogs in category[1] %}
+      <li><a href="{{ indie_dev_games_devlogs.url }}"><i>{{ indie_dev_games_devlogs.date }}</i> <b>{{ indie_dev_games_devlogs.title }}</b></a></li>
     {% endfor %}
   </ul>
 {% endfor %}

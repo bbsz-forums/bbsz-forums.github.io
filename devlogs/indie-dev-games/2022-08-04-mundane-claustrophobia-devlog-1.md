@@ -4,7 +4,7 @@ title: "Mundane Claustrophobia Devlog #1"
 date: 2022-08-04 01:19 -0000
 categories: Updates
 author: Type-32
-tags: indie-dev-games-devlogs
+tags: indie_dev_games_devlogs
 ---
 
 ## Changes since last Commit/Devlog
