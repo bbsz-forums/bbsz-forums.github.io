@@ -199,7 +199,7 @@
 
 <local:MyCard Title="我的项目" CanSwap="False">
     <StackPanel Margin="25,40,23,20">
-		<Image Height="25" Margin="0,-50,0,0" Source="https://github.com/favicon.ico" HorizontalAlignment="Right"/>
+		<Image Height="25" Margin="0,-35,0,0" Source="https://github.com/favicon.ico" HorizontalAlignment="Right"/>
 		<TextBlock TextWrapping="Wrap" LineHeight="17" Margin="0,0,0,15" 
 				   Text="我会在这里放一些我正在开发并上传到Github上的项目，有兴趣的可以去看一看~" Foreground="{DynamicResource ColorBrush1}" />
         <local:MyListItem Margin="-5,5,-5,0" 
