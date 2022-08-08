@@ -207,7 +207,7 @@
 		                  EventType="打开网页" EventData="https://github.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/" Type="Clickable"  ToolTip="点击打开源代码"/>
 	    <local:MyListItem Margin="-5,5,-5,0" 
 		                  Logo="https://raw.githubusercontent.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/main/favicon.ico" Title="现代枪械资源包 重制版" Info="我的世界1.19.+ 资源包" Foreground="{DynamicResource ColorBrush1}" 
-		                  EventType="打开网页" EventData="https://github.com/Type-32/Minecraft-Modern-Guns-Datapack-Remastered/" Type="Clickable" ToolTip="点击打开源代码"/>
+		                  EventType="打开网页" EventData="https://github.com/Type-32/Minecraft-MGD-Remastered-ResourcePack/" Type="Clickable" ToolTip="点击打开源代码"/>
     </StackPanel>
 </local:MyCard>
 
