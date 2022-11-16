@@ -49,6 +49,11 @@ h1{
     display: grid;
     grid-template-columns: 7% 60% 13% 20%;
 }
+.subforum-row:hover{
+    display: grid;
+    box-shadow: #000000;
+    transition: all 0.3s;
+}
 
 .subforum-column{
     padding: 10px;
