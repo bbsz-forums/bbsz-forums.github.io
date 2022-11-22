@@ -33,6 +33,12 @@ h1{
 .subforum-row{
     display: grid;
     grid-template-columns: 7% 60% 13% 20%;
+    transition: 0.3s;
+}
+.subforum-row:hover{
+    transform: scale(1.015);
+    opacity: 0.9;
+    transition: 0.3s;
 }
 .subforum-column{
     padding: 10px;
@@ -40,17 +46,15 @@ h1{
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 1px 10px rgba(190, 190, 190, 0.2);
-    transform: scale(1);
     transition: 0.4s;
 }
 .subforum-column:hover{
     padding: 10px;
     margin: 4px;
     border-radius: 10px;
-    background-color: rgb(250, 253, 255);
+    background-color: rgba(250, 253, 255, 0.794);
     /*opacity: 0.8;*/
     box-shadow: 0 2px 10px rgba(70, 70, 70, 0.2);
-    transform: scale(1.015);
     transition: 0.4s;
 }
 .subforum-icon i{
@@ -98,6 +102,8 @@ header{
 .nav-list{
     list-style-type: none;
     overflow: hidden;
+    margin-left: 20px;
+    margin-bottom: -20px;
 }
 .nav-item a{
     float: right;
