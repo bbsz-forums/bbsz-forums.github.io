@@ -18,7 +18,7 @@ function addCounter(amount: any) {
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
   </header>
   <body>
-    <n-button @click="addCounter">Click To Add!</n-button>
+    <n-button @click="addCounter(1)">Click To Add!</n-button>
     <p>{{ counter.count }}</p>
   </body>
 </template>
